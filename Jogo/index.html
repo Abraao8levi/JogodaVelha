@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu">
+        <h1>Jogo da Velha</h1>
+        <button id="start-button">Iniciar Jogo</button>
+    </div>
+    <div class="instructions">
+        <h2>Instruções</h2>
+        <p>Cada jogador tem 4 oportunidades para fazer uma jogada. Clique em uma célula para fazer sua jogada. O primeiro jogador a formar uma linha com três de seus símbolos (vertical, horizontal ou diagonal) vence. Se todas as células forem preenchidas sem um vencedor, o jogo termina em empate.</p>
+    </div>
+    <div class="game">
+        <div class="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div class="game-info">
+            <button id="reset-button">Reiniciar Jogo</button>
+            <p id="game-status"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
